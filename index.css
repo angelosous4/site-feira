@@ -1,0 +1,10 @@
+:root{
+    --login-background:#f8bb01; /*fundo do botão login*/
+    --login-text:#212529; /*cadastre-se do botão login*/
+    --link-text:#00446b; /*cor do link*/
+    --primary-text: #003349; /* texto principal*/
+    --secondary-text: #5e5e5e; /* texto secundario*/
+    --card-background: #f5fbff; /*fundo do card*/
+    --button-backgroud: #dfcc39; /*fundo do botão*/
+    --button-text: #1d405a; /*cor do texto do botão*/
+}
