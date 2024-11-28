@@ -10,20 +10,50 @@
 }
 body{
     padding-top: 80px;
+    height: 2000px;
 }
 #menu{
     position:fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 75px;
-    background-color: yellow;
+    height: 80px;
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding-left: 40px;
 }
 .menufixo{
     display: flex;
     align-items: center;
-    height: 100%;
+    justify-content: space-between;
 }
 li{
     margin-left: 20px;
+}
+.menufixo li{
+    font-size: 14px;
+    color: var(--link-text);
+}
+.login{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--login-background);
+    width: 150px;
+}
+.login-span{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.span-cadastro{
+    color: var(--link-text);
+    font-weight: 500;
 }
