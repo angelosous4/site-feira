@@ -7,11 +7,11 @@
     --card-background: #f5fbff; /*fundo do card*/
     --button-backgroud: #dfcc39; /*fundo do botão*/
     --button-text: #1d405a; /*cor do texto do botão*/
+    --section-height:650px;
 }
 body{
-    padding-top: 80px;
+    padding-top: 100px;
     height: 2000px;
-    width: 1000px;
 }
 #menu{
     position:fixed;
@@ -59,7 +59,9 @@ li{
     color: var(--link-text);
     font-weight: 500;
 }
-.seçao-um{
-    width: 1366px;
-    height: auto;
+.main{
+    width: 100%;
+}
+.seçao-um img{
+    width: 100%;
 }
