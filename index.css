@@ -1,82 +1,144 @@
-:root{
-    --login-background:#f8bb01; /*fundo do botão login*/
-    --login-text:#212529; /*cadastre-se do botão login*/
-    --link-text:#00446b; /*cor do link*/
-    --primary-text: #003349; /* texto principal*/
-    --secondary-text: #5e5e5e; /* texto secundario*/
-    --card-background: #f5fbff; /*fundo do card*/
-    --button-backgroud: #dfcc39; /*fundo do botão*/
-    --button-text: #1d405a; /*cor do texto do botão*/
-    --section-height:650px;
+:root {
+  --login-background: #f8bb01; /*fundo do botão login*/
+  --login-text: #212529; /*cadastre-se do botão login*/
+  --link-text: #00446b; /*cor do link*/
+  --primary-text: #003349; /* texto principal*/
+  --secondary-text: #5e5e5e; /* texto secundario*/
+  --card-background: #f5fbff; /*fundo do card*/
+  --button-backgroud: #fdcc39; /*fundo do botão*/
+  --button-text: #1d405a; /*cor do texto do botão*/
+  --section-height: 650px;
+  --button-section-two: #1d405a;
+  --card-houver: #ffe9b0;
 }
-body{
-    padding-top: 100px;
-    height: 2000px;
+body {
+  padding-top: 100px;
 }
-#menu{
-    position:fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    background-color: white;
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: white;
 }
-.nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100%;
-    padding-left: 40px;
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding-left: 40px;
 }
-.menufixo{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.menufixo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-li{
-    margin-left: 20px;
+li {
+  margin-left: 20px;
 }
-.menufixo li{
-    font-size: 14px;
-    color: var(--link-text);
+.menufixo li {
+  font-size: 14px;
+  color: var(--link-text);
 }
-.login{
-    gap: 10px;
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--login-background);
-    width: 150px;
+.login {
+  gap: 10px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--login-background);
+  width: 150px;
 }
-.login-span{
-    font-size: 20px;
-    font-weight: 500;
-    color: white;
+.login-span {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
 }
-.span-cadastro{
-    color: var(--link-text);
-    font-weight: 500;
+.span-cadastro {
+  color: var(--link-text);
+  font-weight: 500;
 }
-.main{
-    width: 100%;
+.main {
+  width: 100%;
 }
-.seçao-um img{
-    width: 100%;
+.seçao-um img {
+  width: 100%;
 }
-.seçao-dois strong{
-    font-weight: 700;
+.seçao-dois {
+  height: var(--section-height);
+  width: 100%;
+  padding: 50px 330px;
 }
-.seçao-dois h1{
-    font-weight: 400;
-    font-size: 30px;
-    color: var(--primary-text);
-    padding: 60px 125px 65px 125px;
+.seçao-dois strong {
+  font-weight: 700;
 }
-.frase{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 400;
+.seçao-dois h1 {
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--primary-text);
+  text-align: center;
+}
+.frase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartoes {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.cartoes-lista {
+  display: flex;
+  gap: 5%;
+}
+.cartao {
+  width: 30%;
+  background-color: var(--card-background);
+  height: 250px;
+  border-radius: 20px;
+  padding: 80px 25px;
+  position: relative;
+}
+.cartao:hover {
+  background-color: var(--card-houver);
+}
+
+.cartao span {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--primary-text);
+}
+
+.cartao p {
+  font-size: 18px;
+  color: var(--secondary-text);
+  margin-top: 20px;
+}
+
+.cartao img {
+  position: relative;
+  top: -210px;
+  left: 0;
+  width: 82px;
+  color: var(--link-text);
+}
+
+.botao {
+  background-color: var(--button-backgroud);
+  margin-top: 80px;
+  width: 250px;
+  height: 60px;
+  align-self: center;
+  border-radius: 15px;
+  cursor: pointer;
+  color: var(--button-section-two);
+  font-weight: 600;
+}
+
+.botao:hover {
+  color: white;
 }
