@@ -65,24 +65,18 @@ li{
 .seçao-um img{
     width: 100%;
 }
+.seçao-dois strong{
+    font-weight: 700;
+}
 .seçao-dois h1{
-    display: flex;
-    color: var(--primary-text);
-    padding-left: 120px;
-    padding-right: 120px;
-    padding-top: 60px;
-    padding-bottom: 0;
+    font-weight: 400;
     font-size: 30px;
-    gap: 10px;
+    color: var(--primary-text);
+    padding: 60px 125px 65px 125px;
 }
 .frase{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     font-weight: 400;
 }
-.continuaçao{
-    font-weight: 400;
-    color: var(--primary-text);
-    font-size: 30px;
-} 
