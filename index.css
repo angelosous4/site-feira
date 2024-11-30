@@ -120,9 +120,9 @@ li {
 }
 
 .cartao img {
-  position: relative;
-  top: -210px;
-  left: 0;
+  position: absolute;
+  top: -30px;
+  left: 20px;
   width: 82px;
   color: var(--link-text);
 }
