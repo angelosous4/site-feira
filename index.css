@@ -96,7 +96,8 @@ li {
   gap: 5%;
 }
 .cartao {
-  width: 30%;
+  max-width: 396px;
+  width: 100%;
   background-color: var(--card-background);
   height: 250px;
   border-radius: 20px;
@@ -122,7 +123,7 @@ li {
 .cartao img {
   position: absolute;
   top: -30px;
-  left: 20px;
+  left: 25px;
   width: 82px;
   color: var(--link-text);
 }
