@@ -144,7 +144,7 @@ li {
 }
 
 .icone3 {
-  background-image: url("https://meuplantup.com/img/cadastrou.svg");
+  background-image: url("https://meuplantup.com/img/aumente.svg");
 }
 
 .cartao:hover > .icone1 {
@@ -156,7 +156,7 @@ li {
 }
 
 .cartao:hover > .icone3 {
-  background-image: url("https://meuplantup.com/img/cadastrou-hover.svg");
+  background-image: url("https://meuplantup.com/img/aumente-hover.svg");
 }
 
 .botao {
