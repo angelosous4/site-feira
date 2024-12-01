@@ -14,6 +14,8 @@
 body {
   padding-top: 100px;
 }
+
+/* header - navbar */
 #menu {
   position: fixed;
   top: 0;
@@ -60,12 +62,16 @@ li {
   color: var(--link-text);
   font-weight: 500;
 }
+/* main */
 .main {
   width: 100%;
 }
+/* seção um */
 .seçao-um img {
   width: 100%;
 }
+
+/* seção dois */
 .seçao-dois {
   height: var(--section-height);
   width: 100%;
@@ -87,7 +93,7 @@ li {
 }
 
 .cartoes {
-  margin-top: 70px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
 }
@@ -99,9 +105,9 @@ li {
   max-width: 396px;
   width: 100%;
   background-color: var(--card-background);
-  height: 250px;
-  border-radius: 20px;
-  padding: 80px 25px;
+  height: 240px;
+  border-radius: 40px;
+  padding: 70px 25px;
   position: relative;
 }
 
@@ -121,17 +127,41 @@ li {
   margin-top: 20px;
 }
 
-.cartao img {
+.imagem-icone {
   position: absolute;
   top: -30px;
   left: 25px;
   width: 82px;
-  color: var(--link-text);
+  height: 82px;
+}
+
+.icone1 {
+  background-image: url("https://meuplantup.com/img/simples.svg");
+}
+
+.icone2 {
+  background-image: url("https://meuplantup.com/img/cadastrou.svg");
+}
+
+.icone3 {
+  background-image: url("https://meuplantup.com/img/cadastrou.svg");
+}
+
+.cartao:hover > .icone1 {
+  background-image: url("https://meuplantup.com/img/simples-hover.svg");
+}
+
+.cartao:hover > .icone2 {
+  background-image: url("https://meuplantup.com/img/cadastrou-hover.svg");
+}
+
+.cartao:hover > .icone3 {
+  background-image: url("https://meuplantup.com/img/cadastrou-hover.svg");
 }
 
 .botao {
   background-color: var(--button-backgroud);
-  margin-top: 80px;
+  margin-top: 70px;
   width: 250px;
   height: 60px;
   align-self: center;
@@ -139,29 +169,32 @@ li {
   cursor: pointer;
   color: var(--button-section-two);
   font-weight: 600;
+  font-size: 14px;
 }
 
 .botao:hover {
   color: white;
 }
-.seçao-tres{
+
+/* seção três */
+.seçao-tres {
   height: var(--section-height);
-  background-color: #FDCC39;
+  background-color: #fdcc39;
 }
-#parte-alta{
+#parte-alta {
   background-color: var(--card-houver);
   height: 80px;
   width: 100%;
   margin-bottom: 52px;
 }
-.seçao-tres H2{
+.seçao-tres h2 {
   font-size: 38px;
   font-weight: 700;
   color: var(--link-text);
   padding-left: 375px;
   margin-bottom: 55px;
 }
-.paragrafo-um{
+.paragrafo-um {
   display: flex;
   margin-left: 375px;
   margin-right: 45px;
@@ -170,7 +203,7 @@ li {
   line-height: 34px;
   color: var(--primary-text);
 }
-.img-seçao-tres{
+.img-seçao-tres {
   display: flex;
   margin-right: 330px;
   margin-left: 40px;
@@ -179,20 +212,20 @@ li {
   border-radius: 40px;
   border: 8px solid white;
 }
-#imagem-s-tres{
+#imagem-s-tres {
   border-radius: 32px;
 }
-.botao-tres button{
+.botao-tres button {
   background-color: var(--button-section-two);
   width: 250px;
   height: 60px;
-  margin-top:55px;
+  margin-top: 55px;
   border-radius: 15px;
-  color: #FDCC39;
+  color: #fdcc39;
   font-size: 14px;
   font-weight: 700;
   cursor: pointer;
 }
-.botao-tres button:hover{
+.botao-tres button:hover {
   color: white;
 }
