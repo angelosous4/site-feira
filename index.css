@@ -295,3 +295,45 @@ li {
   border-radius: 32px;
   margin-left: 200px;
 }
+
+/* seção cinco */
+
+.seçao-cinco{
+  height: 530px;
+  width: 100%;
+  background-color: white;
+}
+
+.conteudo-seçao-cinco{
+  display: flex;
+}
+.texto-seçao-cinco{
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo-seçao-cinco h2{ 
+  font-size: 38px;
+  font-weight: 700;
+  margin-left: 375px;
+  margin-top: 100px;
+  color: rgb(29, 64, 90);
+  margin-bottom: 50px;
+}
+
+.conteudo-seçao-cinco p{
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 375px;
+  color: rgb(29, 64, 90);
+  line-height: 34px;
+}
+
+.imagem-seçao-cinco{
+  margin-right: 380px;
+  margin-top: 70px;
+  margin-left: 40px;
+  border: 8px solid whitesmoke;
+  border-radius: 34px;
+}
+
