@@ -229,3 +229,67 @@ li {
 .botao-tres button:hover {
   color: white;
 }
+
+/* seção quatro */
+
+.seçao-quatro{
+  height: 600px;
+  width: 100%;
+  background-color: rgb(29, 64, 90);
+}
+
+.seçao-quatro h3{
+  color: white;
+  font-size: 38px;
+  font-weight: 700;
+  padding-left: 375px;
+  padding-top: 52px;
+  margin-bottom: 30px;
+}
+
+.conteudo-seçao-quatro{
+  display: flex;
+}
+
+.texto-seçao-quatro{
+  display: flex;
+  flex-direction: column;
+}
+.seçao-quatro p{
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  padding-left: 375px;
+  padding-top: 27px;
+  margin-bottom: 20px;
+}
+
+.itens-seçao-quatro{
+  font-size: 20px;
+  color: white;
+  line-height: 34px;
+  padding-left: 355px;
+}
+
+.paragrafo-seçao-quatro button{
+  background-color: #FDCC39;
+  color: #1D405A;
+  width: 250px;
+  height: 60px;
+  margin-top: 20px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 375px;
+}
+
+.paragrafo-seçao-quatro button:hover{
+  color: white;
+}
+
+.imagem-seçao-quatro{
+  border: 8px solid white;
+  border-radius: 32px;
+  margin-left: 200px;
+}
