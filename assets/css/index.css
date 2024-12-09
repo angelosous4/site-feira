@@ -11,6 +11,7 @@
   --button-section-two: #1d405a;
   --card-houver: #ffe9b0;
 }
+
 body {
   padding-top: 100px;
 }
@@ -25,25 +26,31 @@ body {
   height: 100px;
   background-color: white;
 }
+
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 100%;
-  padding-left: 40px;
+  margin-left: 40px;
 }
+
 .menufixo {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 60px;
 }
+
 li {
   margin-left: 20px;
 }
+
 .menufixo li {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--link-text);
 }
+
 .login {
   gap: 10px;
   display: flex;
@@ -54,39 +61,49 @@ li {
   background-color: var(--login-background);
   width: 150px;
 }
+
 .login-span {
   font-size: 20px;
   font-weight: 500;
   color: white;
 }
+
 .span-cadastro {
   color: var(--link-text);
   font-weight: 500;
 }
+
 /* main */
+
 .main {
   width: 100%;
 }
+
 /* seção um */
+
 .seçao-um img {
   width: 100%;
 }
 
 /* seção dois */
+
 .seçao-dois {
   height: var(--section-height);
   width: 100%;
   padding: 50px 330px;
 }
+
 .seçao-dois strong {
   font-weight: 700;
 }
+
 .seçao-dois h1 {
   font-size: 30px;
   font-weight: 400;
   color: var(--primary-text);
   text-align: center;
 }
+
 .frase {
   display: flex;
   justify-content: center;
@@ -98,10 +115,12 @@ li {
   display: flex;
   flex-direction: column;
 }
+
 .cartoes-lista {
   display: flex;
   gap: 5%;
 }
+
 .cartao {
   max-width: 396px;
   width: 100%;
@@ -182,12 +201,14 @@ li {
   height: var(--section-height);
   background-color: #fdcc39;
 }
+
 #parte-alta {
   background-color: var(--card-houver);
   height: 80px;
   width: 100%;
   margin-bottom: 52px;
 }
+
 .seçao-tres h2 {
   font-size: 38px;
   font-weight: 700;
@@ -195,6 +216,7 @@ li {
   padding-left: 375px;
   margin-bottom: 55px;
 }
+
 .paragrafo-um {
   display: flex;
   margin-left: 375px;
@@ -204,6 +226,7 @@ li {
   line-height: 34px;
   color: var(--primary-text);
 }
+
 .img-seçao-tres {
   display: flex;
   margin-right: 330px;
@@ -214,9 +237,11 @@ li {
   border-radius: 40px;
   border: 8px solid white;
 }
+
 #imagem-s-tres {
   border-radius: 32px;
 }
+
 .botao-tres button {
   background-color: var(--button-section-two);
   width: 250px;
@@ -228,6 +253,7 @@ li {
   font-weight: 700;
   cursor: pointer;
 }
+
 .botao-tres button:hover {
   color: white;
 }
@@ -257,6 +283,7 @@ li {
   display: flex;
   flex-direction: column;
 }
+
 .seçao-quatro p{
   font-size: 20px;
   font-weight: 400;
@@ -307,6 +334,7 @@ li {
 .conteudo-seçao-cinco{
   display: flex;
 }
+
 .texto-seçao-cinco{
   display: flex;
   flex-direction: column;
